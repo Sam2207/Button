@@ -68,6 +68,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
+       {alert("Open Console")}
         {this.state.arr.length && (this.state.arr) instanceof Array && this.state.arr.map((ele, index) => {
           return (
             <>
